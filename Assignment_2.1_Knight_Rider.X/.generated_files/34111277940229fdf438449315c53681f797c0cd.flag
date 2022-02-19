@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"src" -I"inc" -I"lib/inc" -I"lib/src"   -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)    C:\Users\lesle\OneDrive - Office 365 Fontys\Embedded systems\ES2\Assignment_2.1_Knight_Rider.X\src\assignment2_1.c
