@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)    C:\Users\lesle\OneDrive - Office 365 Fontys\Embedded systems\ES2\Assignment 2.4\Assignment_2.4_Traffic_Control.X\src\main.c

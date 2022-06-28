@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)    -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)    C:\Users\lesle\OneDrive - Office 365 Fontys\Embedded systems\ES2\Assignment 2.3\Ass_2.3_Digital_Clock.X\src\time.c

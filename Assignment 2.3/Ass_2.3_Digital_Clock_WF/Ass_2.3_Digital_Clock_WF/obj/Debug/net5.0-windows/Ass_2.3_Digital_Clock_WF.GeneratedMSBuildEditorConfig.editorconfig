@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0-windows
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = Ass_2._3_Digital_Clock_WF
+build_property.ProjectDir = C:\Users\lesle\OneDrive - Office 365 Fontys\Embedded systems\ES2\Assignment 2.3\Ass_2.3_Digital_Clock_WF\Ass_2.3_Digital_Clock_WF\

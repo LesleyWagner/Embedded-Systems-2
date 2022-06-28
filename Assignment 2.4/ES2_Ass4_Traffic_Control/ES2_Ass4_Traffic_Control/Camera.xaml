@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="ES2_Ass4_Traffic_Control.Camera"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ES2_Ass4_Traffic_Control"
+             xmlns:my="clr-namespace:DebugTriggers"
+             mc:Ignorable="d">
+    <Grid>
+        <Image x:Name="camLight" Source="/Images/pngaaa.com-1249887.png" Height="50" Margin="20,0,0,0" Opacity="0"/>
+        <Rectangle Height="20" Width="20" RadiusX="5" RadiusY="5" Fill="LightGray" Stroke="Black" StrokeThickness="1" HorizontalAlignment="Left" Panel.ZIndex="1"/>
+        <Polygon Points="0,10 27,3 27,17" Height="20" Width="27" Fill="LightGray" Stroke="Black" StrokeThickness="1" HorizontalAlignment="Left" Panel.ZIndex="0"/>
+    </Grid>
+
+    <UserControl.Resources>
+        <Storyboard x:Key="animateFlash">
+            <DoubleAnimation
+              Storyboard.TargetName="camLight" 
+              Storyboard.TargetProperty="Opacity"
+              From="0.0" To="1.0" Duration="0:0:0.5" />
+            <DoubleAnimation
+              Storyboard.TargetName="camLight" 
+              Storyboard.TargetProperty="Opacity"
+              From="1.0" To="0.0" Duration="0:0:0.5" BeginTime="0:0:1"/>
+        </Storyboard>
+    </UserControl.Resources>
+    <UserControl.Triggers>
+        <EventTrigger RoutedEvent="local:Camera.OnFlash" my:TriggerTracing.TriggerName="RedLight" my:TriggerTracing.TraceEnabled="True">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation
+              Storyboard.TargetName="camLight" 
+              Storyboard.TargetProperty="Opacity"
+              From="0.0" To="1.0" Duration="0:0:0:5" />
+                    <DoubleAnimation
+              Storyboard.TargetName="camLight" 
+              Storyboard.TargetProperty="Opacity"
+              From="1.0" To="0.0" Duration="0:0:0:5" BeginTime="0:0:1:5"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </UserControl.Triggers>
+</UserControl>

@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lesle\\OneDrive - Office 365 Fontys\\Embedded systems\\ES2\\Assignment 2.4\\ES2_Ass4_Traffic_Control\\ES2_Ass4_Traffic_Control\\ES2_Ass4_Traffic_Control.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lesle\\OneDrive - Office 365 Fontys\\Embedded systems\\ES2\\Assignment 2.4\\ES2_Ass4_Traffic_Control\\ES2_Ass4_Traffic_Control\\ES2_Ass4_Traffic_Control.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lesle\\OneDrive - Office 365 Fontys\\Embedded systems\\ES2\\Assignment 2.4\\ES2_Ass4_Traffic_Control\\ES2_Ass4_Traffic_Control\\ES2_Ass4_Traffic_Control.csproj",
+        "projectName": "ES2_Ass4_Traffic_Control",
+        "projectPath": "C:\\Users\\lesle\\OneDrive - Office 365 Fontys\\Embedded systems\\ES2\\Assignment 2.4\\ES2_Ass4_Traffic_Control\\ES2_Ass4_Traffic_Control\\ES2_Ass4_Traffic_Control.csproj",
+        "packagesPath": "C:\\Users\\lesle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lesle\\OneDrive - Office 365 Fontys\\Embedded systems\\ES2\\Assignment 2.4\\ES2_Ass4_Traffic_Control\\ES2_Ass4_Traffic_Control\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "System.IO.Ports": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
